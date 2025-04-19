@@ -6,7 +6,7 @@ interface DataLinksHeader {
 export const dataLinksHeader: DataLinksHeader[] = [
   { name: "Início", id: "inicio" },
   { name: "Diferenciais", id: "diferenciais" },
-  { name: "Integraão", id: "integracao" },
+  { name: "Integrações", id: "integracoes" },
   { name: "Planos", id: "planos" },
   { name: "Meu Gerente", id: "meu-gerente" },
 ];
