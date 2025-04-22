@@ -8,7 +8,7 @@ export const dataAcordionFaq: DataAcordionFaq[] = [
   {
     question: "Qual é o prazo de recebimento dos valores na WINSS?",
     response:
-      "Na WINSS, você escolhe o que funciona melhor para o seu fluxo de caixa. Oferecemos três opções de recebimento para vendas com cartão de crédito: \n\n• Recebimento em 2 dias úteis \n• Recebimento Em 15 dias \n• Recebimento em 30 dias, com taxas ainda menores. \n\nPara vendas por PIX, o recebimento é instantâneo, e por boleto bancário, ocorre em 2 dias úteis após o pagamento.Você tem o controle para escolher a melhor opção para o seu projeto.",
+      "Atualmente, na WINSS, todas as vendas com cartão de crédito são repassadas em 15 dias (D+15), oferecendo um equilíbrio entre agilidade no fluxo de caixa e taxas competitivas.\n\nJá as vendas por PIX continuam com recebimento instantâneo, e os pagamentos por boleto bancário são compensados em até 2 dias úteis após o pagamento.",
     id: "1",
   },
   {
@@ -39,7 +39,7 @@ export const dataAcordionFaq: DataAcordionFaq[] = [
   {
     question: "Qual é o diferencial da WINSS?",
     response:
-      "Além de taxas competitivas, oferecemos 0% de taxa no PIX, dashboard inteligente, suporte humanizado, e um design otimizado para conversão porque cada venda é uma vitória.",
+      "Na WINSS, o grande diferencial é a velocidade: vendeu no PIX, recebeu na hora (D+0). Além disso, contamos com um dashboard inteligente, suporte humanizado e um design otimizado para conversão, porque cada venda importa — e você merece ver o resultado imediatamente.",
     id: "6",
   },
   {

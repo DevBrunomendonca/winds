@@ -12,7 +12,7 @@ const Footer = () => {
           <li>
             <a
               className="bg-green-color-600 flex h-7 w-7 items-center justify-center rounded-full p-1.5"
-              href=""
+              href="https://www.instagram.com/winsspay/"
               target="_blank"
               rel="noopener noreferrer"
             >

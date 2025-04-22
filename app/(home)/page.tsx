@@ -38,7 +38,10 @@ export default function Home() {
 const SectionHome = () => {
   const { ref, controls } = useAnimationScroll();
   return (
-    <section id="inicio" className="mx-auto max-w-6xl">
+    <section
+      id="inicio"
+      className="mx-auto min-h-[600px] max-w-6xl md:min-h-[900px]"
+    >
       <div className="mt-[140px] bg-[url('/banners/bg-effect-home.webp')] bg-center bg-no-repeat pb-6 md:mt-[180px]">
         <div className="flex h-full flex-col items-center justify-center gap-6 px-4">
           <BadgeGradient>
@@ -84,7 +87,6 @@ const SectionHome = () => {
 };
 
 const SectionDiferentials = () => {
-  const { ref, controls } = useAnimationScroll();
   return (
     <section
       id="diferenciais"
@@ -95,23 +97,15 @@ const SectionDiferentials = () => {
       </BadgeGradient>
       <div className="flex w-full flex-col items-start gap-6 lg:flex-row lg:items-start lg:gap-10">
         <div className="static mx-auto h-[519px] w-full max-w-[520px] overflow-y-hidden rounded-3xl border-b-2 border-black bg-[url('/banners/bg-imagem-celular.webp')] bg-top bg-no-repeat lg:sticky lg:top-0 lg:flex-shrink-0">
-          <motion.div
-            ref={ref}
-            initial={{ y: 40, opacity: 0 }}
-            animate={controls}
-            transition={{ duration: 0.9, ease: "easeOut" }}
-            className="mx-auto w-full max-w-[1050px] px-4"
-          >
-            <Image
-              src="/images/imagem-celular.png"
-              alt="imagem aplicativo winss"
-              width={0}
-              height={0}
-              sizes="100vh"
-              quality={100}
-              className="mx-auto w-full max-w-[329px] translate-y-10 duration-700 ease-in-out hover:translate-y-2"
-            />
-          </motion.div>
+          <Image
+            src="/images/imagem-celular.png"
+            alt="imagem aplicativo winss"
+            width={0}
+            height={0}
+            sizes="100vh"
+            quality={100}
+            className="mx-auto w-full max-w-[329px] translate-y-10 duration-700 ease-in-out hover:translate-y-2"
+          />
         </div>
         <div className="mx-auto flex h-full w-full max-w-[620px] flex-col items-start gap-6">
           <div className="space-y-3">
