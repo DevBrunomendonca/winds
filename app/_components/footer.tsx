@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#272727]">
+      <div>
         {/* Footer Buttom */}
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-6 md:flex-row">
           <p className="text-white-color font-semibold">
